@@ -1,0 +1,19 @@
+{
+  "author": "Bryan Donovan <bdondo@gmail.com>",
+  "name": "nodejs-mock-test",
+  "description": "testing mocking with Mockery",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://ithub.com:BryanDonovan/nodejs-mock-test.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.4.5"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mockery": "1.0.0",
+    "mocha": "0.7.0"
+  }
+}
