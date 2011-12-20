@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mockery = require('../../mockery');
+var mockery = require('mockery');
 
 var mock_widget = {
     get_widget: function() {
