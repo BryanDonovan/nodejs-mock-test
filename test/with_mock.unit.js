@@ -16,7 +16,7 @@ describe("with mock", function() {
         mockery.registerAllowable('../lib/foo');
         foo = require('../lib/foo');
     });
-        
+
     after(function() {
         mockery.disable();
         mockery.deregisterAll();
