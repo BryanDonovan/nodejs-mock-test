@@ -9,7 +9,7 @@ var mock_widget = {
 
 var foo;
 
-describe("with mock", function() {
+describe("foo.js - with mock", function() {
     before(function() {
         mockery.enable();
         mockery.registerMock('./widget', mock_widget);
